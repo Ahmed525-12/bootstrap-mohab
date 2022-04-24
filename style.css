@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+/*------------------ star nav --------------------------------*/
+
+.botton_nav{
+    outline: 0 !important;
+
+}
+.botton_nav:hover{
+color:rgba(255, 255, 255, 0.712) !important;
+}
+.botton_nav:focus{box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0) !important;
+outline: 0;
+}
+.span_nav{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #c1bab3;
+    border-radius: 50px;
+    padding: 11px 15px;
+    
+}
+.span_nav:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #b6b1ad;
+}
+.img_nav{
+    letter-spacing: 8px;
+    font-weight: 900;
+    font-size: 28px;
+    color: #8b885d !important;
+}
+.activee{
+    color: #8b885d !important;
+}
+/* -------------------------------end nav ---------------------------- */
+
+/* ---------------------------------start header ---------------------- */
+.header{
+    background-image: url(img/pexels-ketut-subiyanto-4473612.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 115vh;
+}
+.blur_header{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 115vh;
+    margin-top: -74px;
+    width: 100%;
+}
+.hero_heading{
+    font-size: 58px;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    font-weight: 900;
+}
+.p_hero{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.main_heading{
+    padding-top: 246px;
+}
+.button-headeing{
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 16px 19px;
+    color:#fff !important;
+
+}
+.button-headeing:hover{
+    background-color: #fff !important;
+    color: black !important;
+    text-decoration: none;
+    font-weight: 900;
+}
+/* ----------------------------------------end header--------------------------------- */
+
+/* -------------------------------------------start section1--------------------------- */
+.icon_section1{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #c1bab3;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 88px;
+    margin-bottom: 20px;
+}
+.icon-box-title{
+    margin-bottom: 11px;
+    font-size: 17px;
+}
+.icon-description{
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+/* ------------------------------------------------------end section 1 ------------------------------------------- */
+/* ------------------------------------------------------start section2 -------------------------------------------*/
+.section2{
+    background-image: url(img/pexels-elly-fairytale-3822140.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blur_section2{
+    background-color:rgba(0, 0, 0, 0.3) ;
+}
+.text_section2{
+color: #fff;
+padding-left: 48%;
+padding-top: 55px;
+padding-bottom: 55px;
+}
+.text_section2 h2{
+    font-size: 32px;
+}
+.text_section2 p{
+    font-size: 18px;
+}
+.span_section2{
+    color: whitesmoke;
+    background-color: #c7ab90;
+    border-radius: 50px;
+    padding: 11px 15px;
+}
+.span_section2:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #a08d7e;
+}
+.button_section2{
+padding-left: 48%;
+padding-top: 40px;
+padding-bottom: 55px;
+}
+/* ------------------------------------------------------------end section2------------------------------------------- */
+
+/* -------------------------------------------------------------start section3 --------------------------------------- */
+.icon_section3{
+    font-size: 40px;
+    color: #888;
+}
+.p_section3{
+    color: rgb(95, 95, 95);
+}
+/* ----------------------------------------------------------------end section3-------------------------------------- */
+
+/* -------------------------------------------------------------------start section5--------------------------------- */
+.start_section5{
+    background-color: #a08d7e;
+}
+.icon_section5{
+    font-size: 34px;
+}
+.h_section5{
+    font-size: 45px;
+}
+.p_section5{
+    font-size: 22px;
+}
+.icon_section51{
+    font-size: 34px;
+    transform: rotate3d(0.4, 0.2, 1, -45deg); 
+}
+/* -----------------------------------------------------------end section5----------------------------------- */
+/* -------------------------------------------------------------start section6------------------------------- */
+.font-size{
+    font-size: 34px;
+}
+/* ---------------------------------------------------------end section6----------------------------------- */
+/* ----------------------------------------------------start section7------------------------------------------- */
+.text_section7{
+    padding-left: 50px;
+    padding-right: 10px;
+}
+/* ------------------------------------------------------end section 7------------------------------------------- */
+
+/* --------------------------------------------------------start section8--------------------------------------- */
+.carousel_xx{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.img_carousel{
+    background-image: url(img/pexels-valeria-ushakova-3094230.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ahmmed_hatem{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.font-size2{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.font-size3{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.712);
+}
+.font-size1::before{
+    content:open-quote;
+    margin-right: 5px;
+}
+.font-size1::after{
+    content: close-quote;
+    margin-left: 5px;
+}
+.font-size1{
+    font-size: 34px;
+}
+/* ---------------------------------------------------------end section8-------------------------------- */
+/* ---------------------------------------------------------start section 9----------------------------------- */
+.icon_section9{
+    color: #fff;
+    background: #aaa;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    line-height: 36px;
+    font-size: 18px;
+    top: 10px;
+}
+.section_9{
+    list-style: none;
+}
+.span_section9{
+    padding-left: 15px;
+}
+/* ------------------------------------------------------------end section9------------------------------ */
+
+/* --------------------------------------------------------start section10------------------------------- */
+.span_section10{
+    color: whitesmoke;
+    background-color: #c7ab90;
+    border-radius: 50px;
+    padding: 11px 15px;
+}
+.span_section10:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #a08d7e;
+}
+.section10{
+    background-color: rgb(230, 230, 230);
+}
+/* -----------------------------------------------end section10--------------------------------------- */
+/* ------------------------------------------------start section11----------------------------------- */
+.ul_section7 {
+    list-style: none;
+}
+
+.li1_section7 {
+    color: rgb(167, 163, 163);
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.5);
+    padding-left: 2px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.li1_section7::before {
+    content: ">";
+    padding-right: 10px;
+}
+
+
+
+.li_section7 {
+    color: rgb(167, 163, 163);
+    padding-left: 2px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.5);
+}
+
+/* ---------------------------------------------------------end section11------------------------------- */
+ 
+/* ----------------------------------------------------start footer--------------------------------------- */
+.copyright{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+.footer{
+    background-color: rgb(250, 212, 154);
+}
+
+.face {
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: #8b885d;
+    color: whitesmoke;
+    padding: 7.5px 11px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+
+.face:hover {
+    background-color: #385998;
+    color: whitesmoke;
+}
+
+.face1 {
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: #8b885d;
+    color: whitesmoke;
+    padding: 7.5px 11px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+
+.face1:hover {
+    background-color: #385998;
+    color: whitesmoke;
+}
+
+.face2 {
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: #8b885d;
+    color: whitesmoke;
+    padding: 7.5px 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+
+.face2:hover {
+    background-color: #3f8db1;
+    color: whitesmoke;
+}
+
+.face3 {
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: #8b885d;
+    color: whitesmoke;
+    padding: 8px 9.5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+
+.face3:hover {
+    background-color: #62c8f8;
+    color: whitesmoke;
+}
+/* end footer */
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
